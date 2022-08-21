@@ -240,13 +240,13 @@ img[alt="technical-support"] {
 }
 
 .pack .features {
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 0 30px;
   list-style-type: none;
 }
 
 .pack .features li {
-  margin: 15px 0;
+  margin: 18px 0;
   font-size: 15px;
   font-weight: 600;
   color: #1a1a1a;
