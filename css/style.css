@@ -23,6 +23,7 @@ body {
 .logo-1 {
   margin-left: 60px;
   height: 55px;
+  cursor: pointer;
 }
 
 .nav-items {
@@ -195,7 +196,6 @@ img[alt="technical-support"] {
   font-weight: 500;
   color: #848485;
   line-height: 1.6;
-  /* width: 75%; */
 }
 
 .pricing-section {
@@ -350,8 +350,8 @@ img[alt="technical-support"] {
 
 .review-card {
   margin: 0px 20px 40px 20px;
-  width: 35%;
   padding: 30px;
+  width: 35%;
   background-color: #ffffff;
   border: 1.5px solid #d7d7d7;
   border-radius: 6px;
@@ -460,7 +460,7 @@ img[alt="technical-support"] {
 .logo p {
   margin-top: 20px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #848485;
   line-height: 1.5;
 }
@@ -483,7 +483,7 @@ img[alt="technical-support"] {
 .footer ul li a {
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #848485;
 }
 
@@ -512,6 +512,6 @@ img[alt="technical-support"] {
     transform: scale(1);
   }
   to {
-    transform: scale(1.1);
+    transform: scale(1.15);
   }
 }
