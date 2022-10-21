@@ -1,0 +1,204 @@
+@media (max-width: 1250px) {
+  .banner h1,
+  .services-section .header h1,
+  .pricing-section h1,
+  .review-section .header h1,
+  .content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-items,
+  .navbar button {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .banner-content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .banner-image {
+    width: 50%;
+  }
+
+  .banner {
+    gap: 50px;
+  }
+
+  .banner h1,
+  .services-section .header h1,
+  .pricing-section h1,
+  .review-section .header h1,
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .services {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service {
+    width: 85%;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .logo {
+    width: 100%;
+    align-items: center;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .footer-links ul {
+    justify-self: center;
+  }
+
+  .social-media {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1050px) {
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .banner:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-content p {
+    width: 100%;
+  }
+
+  .banner-image {
+    width: 70%;
+  }
+
+  .services-section .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services-section .header h1,
+  .services-section .header p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .service {
+    justify-self: center;
+  }
+
+  .review-section .header p {
+    width: 100%;
+  }
+
+  .review-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .register-now-section .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 860px) {
+  .navbar .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .logo-top {
+    width: 100px;
+  }
+
+  .services {
+    padding: 0px;
+  }
+
+  .service {
+    width: 100%;
+  }
+}
+
+@media (max-width: 740px) {
+  .services {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .service {
+    text-align: center;
+  }
+
+  .review-cards {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0px 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .banner h1,
+  .services-section .header h1,
+  .pricing-section h1,
+  .review-section .header h1,
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .pack .header h3,
+  .pack .subscription h3 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  .logo-bottom {
+    width: 80px;
+  }
+
+  .footer-links ul li:first-child,
+  .social-media h4 {
+    font-size: 18px;
+  }
+}

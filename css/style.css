@@ -16,8 +16,13 @@ img {
   width: 100%;
 }
 
+button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .container {
-  padding: 0px 60px;
+  padding: 0px 70px;
 }
 
 /* Navbar */
@@ -54,7 +59,6 @@ img {
 }
 
 .register-now-btn {
-  font-size: 18px;
   font-weight: 600;
   padding: 10px 22px;
   border-radius: 6px;
@@ -80,12 +84,13 @@ img {
 
 /* Banners */
 .banners {
-  margin-top: 110px;
+  margin-top: 100px;
 }
 
 .banner {
   display: flex;
   justify-content: space-between;
+
   margin-bottom: 100px;
 }
 
@@ -110,8 +115,6 @@ img {
 
 .banner-content button {
   margin-top: 30px;
-  font-size: 18px;
-  font-weight: 600;
   color: #ffffff;
   padding: 14px 0;
   width: 200px;
@@ -131,16 +134,7 @@ img {
   width: 42%;
 }
 
-img[alt="technical-support"] {
-  position: relative;
-  bottom: 75px;
-}
-
 /* Services */
-.services-section {
-  margin-top: -150px;
-}
-
 .services-section .header {
   display: flex;
   justify-content: space-between;
@@ -148,7 +142,7 @@ img[alt="technical-support"] {
 }
 
 .services-section .header h1 {
-  width: 40%;
+  width: 45%;
   font-size: 45px;
   color: #1d2b4f;
   line-height: 1.4;
@@ -168,10 +162,6 @@ img[alt="technical-support"] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 70px;
-}
-
-.service {
-  width: 320px;
 }
 
 .service img {
@@ -217,7 +207,7 @@ img[alt="technical-support"] {
 }
 
 .pack {
-  width: 340px;
+  width: 320px;
   background-color: #ffffff;
   border-radius: 15px;
 }
@@ -281,8 +271,6 @@ img[alt="technical-support"] {
 
 .choose-plan-btn {
   margin-top: 30px;
-  font-size: 18px;
-  font-weight: 600;
   color: #0690f0;
   padding: 10px 22px;
   background-color: #ffffff;
@@ -338,15 +326,14 @@ img[alt="technical-support"] {
 }
 
 .review-cards {
-  display: flex;
-  justify-content: center;
+  padding: 0px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 .review-card {
   padding: 30px;
-  width: 480px;
   background-color: #ffffff;
   border: 1px solid #d7d7d7;
   border-radius: 6px;
