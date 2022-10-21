@@ -1,9 +1,5 @@
 @media (max-width: 1250px) {
-  .banner h1,
-  .services-section .header h1,
-  .pricing-section h1,
-  .review-section .header h1,
-  .content h1 {
+  h1 {
     font-size: 40px;
   }
 }
@@ -32,11 +28,7 @@
     gap: 50px;
   }
 
-  .banner h1,
-  .services-section .header h1,
-  .pricing-section h1,
-  .review-section .header h1,
-  .content h1 {
+  h1 {
     font-size: 35px;
   }
 
@@ -175,11 +167,7 @@
     padding: 30px 24px 0px 24px;
   }
 
-  .banner h1,
-  .services-section .header h1,
-  .pricing-section h1,
-  .review-section .header h1,
-  .content h1 {
+  h1 {
     font-size: 30px;
   }
 

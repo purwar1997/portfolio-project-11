@@ -12,8 +12,15 @@ body {
   background-color: #fdfeff;
 }
 
+h1 {
+  font-size: 45px;
+  line-height: 1.4;
+}
+
 p {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 img {
@@ -63,7 +70,6 @@ button {
 }
 
 .register-now-btn {
-  font-weight: 600;
   padding: 10px 22px;
   border-radius: 6px;
   transition: transform 250ms ease;
@@ -94,7 +100,6 @@ button {
 .banner {
   display: flex;
   justify-content: space-between;
-
   margin-bottom: 100px;
 }
 
@@ -103,17 +108,13 @@ button {
 }
 
 .banner-content h1 {
-  font-size: 45px;
   color: #14263f;
-  line-height: 1.4;
 }
 
 .banner-content p {
   margin-top: 30px;
-  font-weight: 500;
   color: #848485;
   width: 90%;
-  line-height: 1.6;
 }
 
 .banner-content button {
@@ -146,16 +147,12 @@ button {
 
 .services-section .header h1 {
   width: 45%;
-  font-size: 45px;
   color: #1d2b4f;
-  line-height: 1.4;
 }
 
 .services-section .header p {
   width: 40%;
-  font-weight: 500;
   color: #848485;
-  line-height: 1.6;
 }
 
 .services {
@@ -181,9 +178,7 @@ button {
 .service p {
   margin-top: 20px;
   font-size: 15px;
-  font-weight: 500;
   color: #848485;
-  line-height: 1.6;
 }
 
 /* Pricing */
@@ -195,7 +190,6 @@ button {
 }
 
 .pricing-section h1 {
-  font-size: 45px;
   color: #ffffff;
   text-align: center;
 }
@@ -314,15 +308,12 @@ button {
 }
 
 .review-section .header h1 {
-  font-size: 45px;
   color: #1d2b4f;
 }
 
 .review-section .header p {
   margin: 25px auto 50px auto;
-  font-weight: 500;
   color: #848485;
-  line-height: 1.6;
   width: 60%;
 }
 
@@ -338,8 +329,6 @@ button {
   background-color: #ffffff;
   border: 1px solid #d7d7d7;
   border-radius: 6px;
-  font-size: 15px;
-  font-weight: 500;
   box-shadow: 0 0 20px #dfdfdf;
   position: relative;
 }
@@ -367,6 +356,7 @@ button {
   left: 100px;
   bottom: 40px;
   font-size: 14px;
+  font-weight: 500;
   color: #1d2b4f;
 }
 
@@ -390,16 +380,12 @@ button {
 }
 
 .content h1 {
-  font-size: 45px;
   color: #ffffff;
-  line-height: 1.4;
 }
 
 .content p {
   margin-top: 20px;
-  font-weight: 500;
   color: #ffffff;
-  line-height: 1.5;
 }
 
 .register-now-section .register-now-btn {
@@ -432,7 +418,6 @@ footer .container {
 
 .logo p {
   font-size: 14px;
-  font-weight: 500;
   color: #848485;
   line-height: 1.5;
 }
