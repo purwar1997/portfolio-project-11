@@ -12,6 +12,10 @@ body {
   background-color: #fdfeff;
 }
 
+p {
+  font-size: 16px;
+}
+
 img {
   width: 100%;
 }
@@ -106,7 +110,6 @@ button {
 
 .banner-content p {
   margin-top: 30px;
-  font-size: 16px;
   font-weight: 500;
   color: #848485;
   width: 90%;
@@ -150,7 +153,6 @@ button {
 
 .services-section .header p {
   width: 40%;
-  font-size: 16px;
   font-weight: 500;
   color: #848485;
   line-height: 1.6;
@@ -202,7 +204,7 @@ button {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 35px;
   flex-wrap: wrap;
 }
 
@@ -318,7 +320,6 @@ button {
 
 .review-section .header p {
   margin: 25px auto 50px auto;
-  font-size: 16px;
   font-weight: 500;
   color: #848485;
   line-height: 1.6;
@@ -344,6 +345,7 @@ button {
 }
 
 .review-card p {
+  font-size: 15px;
   color: #1d2b4f;
   line-height: 1.5;
 }
@@ -395,7 +397,6 @@ button {
 
 .content p {
   margin-top: 20px;
-  font-size: 16px;
   font-weight: 500;
   color: #ffffff;
   line-height: 1.5;
@@ -431,7 +432,7 @@ footer .container {
 
 .logo p {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #848485;
   line-height: 1.5;
 }
@@ -460,7 +461,7 @@ footer .container {
 .footer-links ul li a {
   text-decoration: none;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #848485;
 }
 
