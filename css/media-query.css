@@ -166,13 +166,13 @@
 
 @media (max-width: 600px) {
   .container {
-    padding: 0px 20px;
+    padding: 0px 25px;
   }
 }
 
 @media (max-width: 500px) {
   .navbar .container {
-    padding: 20px 20px 0px 20px;
+    padding: 30px 25px 0px 25px;
   }
 
   .banner h1,
@@ -181,10 +181,6 @@
   .review-section .header h1,
   .content h1 {
     font-size: 30px;
-  }
-
-  p {
-    font-size: 15px;
   }
 
   .pack .header {
