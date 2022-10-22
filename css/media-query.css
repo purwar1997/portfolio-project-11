@@ -171,6 +171,11 @@
     padding: 30px 24px 0px 24px;
   }
 
+  .logo-top,
+  .logo-bottom {
+    width: 90px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -186,10 +191,6 @@
 
   button {
     font-size: 16px;
-  }
-
-  .logo-bottom {
-    width: 90px;
   }
 
   .footer-links ul li:first-child,
