@@ -180,6 +180,10 @@
     font-size: 30px;
   }
 
+  .banner-image {
+    width: 90%;
+  }
+
   .pack .header h3,
   .pack .subscription h3 {
     font-size: 24px;
