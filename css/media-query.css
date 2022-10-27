@@ -68,7 +68,7 @@
   .banner {
     flex-direction: column-reverse;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
   }
 
   .banner:nth-child(2) {
@@ -142,6 +142,10 @@
 }
 
 @media (max-width: 740px) {
+  .banner {
+    gap: 30px;
+  }
+
   .services {
     grid-template-columns: 1fr;
     gap: 40px;
